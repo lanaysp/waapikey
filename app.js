@@ -14,7 +14,7 @@ const jsonParser = bodyParser.json()
 const app = express();
 const server = http.createServer(app);
 
-const callback_server = "http://notif.netkreator.com/";
+const callback_server = "http://wablast.lanaysp.com/";
 
 app.use(express.json());
 app.use(express.urlencoded({
